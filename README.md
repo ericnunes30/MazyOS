@@ -1,11 +1,14 @@
 # MazyOS
 
-> O sistema operacional do seu negócio dentro do Claude Code.
+> O sistema operacional do seu negócio dentro do Pi.
 
-Você acaba de instalar o MazyOS. Em alguns minutos, sua empresa vai
-ter uma memória própria, uma identidade visual aplicada em tudo que
-o sistema gerar, e 15 skills prontas pra fazer marketing, SEO, ads
-e operação rodarem com você dirigindo.
+Esta é a versão do MazyOS compatível com [pi.dev](https://pi.dev) — o agente de
+terminal que roda em qualquer projeto. Skills migradas de `.claude/` para
+`.pi/agent/`, comandos adaptados pro formato nativo do Pi.
+
+Em alguns minutos sua empresa vai ter memória própria, identidade visual
+aplicada em tudo que o sistema gerar, e 15 skills prontas pra fazer
+marketing, SEO, ads e operação rodarem com você dirigindo.
 
 Bora voar.
 
@@ -15,13 +18,13 @@ Bora voar.
 
 Dois caminhos. Escolhe o que combina contigo.
 
-### Pelo Claude (mais rápido)
+### Pelo Pi (mais rápido)
 
-Abre o Claude Code em qualquer pasta e cola:
+Abre o Pi em qualquer pasta e cola:
 
 ```
-Clona o https://github.com/mazzeoia/MazyOS.git na pasta atual,
-entra nela e roda o /instalar.
+Clona o https://github.com/ericnunes30/MazyOS.git na pasta atual,
+entra nela e roda a instalação.
 ```
 
 Ele clona, entra na pasta nova e dispara a entrevista de setup. Você
@@ -30,20 +33,20 @@ só responde.
 ### Pelo terminal (mais previsível)
 
 ```
-git clone https://github.com/mazzeoia/MazyOS.git
+git clone https://github.com/ericnunes30/MazyOS.git
 cd MazyOS
 code .
 ```
 
-Na janela do VS Code que abrir: terminal integrado → `claude` → `/instalar`.
+Na janela do VS Code que abrir: terminal integrado → `pi` → peça a instalação.
 
 ---
 
-Quando o `/instalar` terminar, renomeia a pasta `MazyOS/` pro nome do teu
+Quando a instalação terminar, renomeia a pasta `MazyOS/` pro nome do teu
 negócio (fecha o VS Code, renomeia no Explorer/Finder, abre de novo). A
 pasta não fica como "MazyOS" — ela é o teu negócio agora.
 
-O `/instalar` roda uma vez só. Te entrevista sobre o negócio, monta a
+A instalação roda uma vez só. Te entrevista sobre o negócio, monta a
 memória e configura o sistema. Depois disso, é só usar.
 
 ---
@@ -51,28 +54,28 @@ memória e configura o sistema. Depois disso, é só usar.
 ## O sistema
 
 **Núcleo** — o jeito de operar o dia a dia
-`/abrir` carrega o contexto antes de cada sessão de trabalho · `/salvar`
-faz commit + push no GitHub · `/atualizar` varre o projeto e atualiza
-a memória · `/novo-projeto` cria pasta isolada pra cada cliente ou
-iniciativa · `/mapear-rotinas` descobre o que você repete e transforma
+Peça "abrir" pra carregar o contexto antes de cada sessão · peça "salvar"
+pra commit + push no GitHub · peça "atualizar" pra varrer o projeto e
+atualizar a memória · "novo projeto" cria pasta isolada pra cada cliente
+ou iniciativa · "mapear rotinas" descobre o que você repete e transforma
 em skill personalizada.
 
 **Conteúdo e SEO** — vitrine pública da empresa
-`/carrossel` cria carrosséis 1080×1350 com identidade da marca (com ou
-sem foto IA) · `/publicar-tema` pega um tema e entrega artigo de blog +
-carrossel + 3 legendas amarradas · `/seo` roda fluxo completo de 8 passos
-(demanda, concorrência, GMB, on-page, conteúdo, ads, monitoramento, GEO)
-· `/responder-avaliacoes` escreve respostas humanas pras reviews do
-Google · `/aprovar-post` publica blog + Instagram + Facebook num comando.
+Peça "carrossel" pra criar carrosséis 1080×1350 com identidade da marca
+(com ou sem foto IA) · "publicar tema" pega um tema e entrega artigo de
+blog + carrossel + 3 legendas amarradas · "seo" roda fluxo completo de 8
+passos (demanda, concorrência, GMB, on-page, conteúdo, ads, monitoramento,
+GEO) · "responder avaliações" escreve respostas humanas pras reviews do
+Google · "aprovar post" publica blog + Instagram + Facebook num comando.
 
 **Anúncios pagos** — onde o dinheiro entra
-`/anuncio-google` monta a campanha inteira em CSV pronto pra importar
-no Google Ads Editor · `/relatorio-ads` lê os exports de Google + Meta
-e devolve relatório semanal com alertas e recomendações.
+Peça "anúncio google" pra montar a campanha inteira em CSV pronto pra
+importar no Google Ads Editor · "relatório ads" lê os exports de Google +
+Meta e devolve relatório semanal com alertas e recomendações.
 
 **Produção** — ferramentas do dia a dia
-`/analisar-dados` lê CSV/XLSX/PDF e gera resumo executivo ·
-`/email-profissional` rascunha email a partir de contexto livre.
+Peça "analisar dados" pra ler CSV/XLSX/PDF e gerar resumo executivo ·
+"email profissional" rascunha email a partir de contexto livre.
 
 ---
 
@@ -94,7 +97,7 @@ O sistema não substitui você. Vira parte da sua empresa.
 ## Como o MazyOS pensa
 
 `_memoria/` é o cérebro. Tudo que importa do seu negócio mora aqui —
-quem é a empresa, como ela fala, o que tá em foco essa semana. O Claude
+quem é a empresa, como ela fala, o que tá em foco essa semana. O agente
 lê isso antes de cada resposta. Quanto melhor a memória, melhor o sistema.
 
 `identidade/` é o rosto. Cores, fontes, logo, padrão visual. Todo
