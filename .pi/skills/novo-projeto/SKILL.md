@@ -1,4 +1,4 @@
-﻿---
+---
 name: novo-projeto
 description: >
   Cria uma pasta de projeto nova com `AGENTS.md` dedicado, depois de uma entrevista curta sobre
