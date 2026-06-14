@@ -4,7 +4,7 @@
 
 Esta é a versão do MazyOS compatível com [pi.dev](https://pi.dev) — o agente de
 terminal que roda em qualquer projeto. Skills migradas de `.claude/` para
-`.pi/agent/`, comandos adaptados pro formato nativo do Pi.
+`.pi/skills/`, comandos adaptados pro formato nativo do Pi.
 
 Em alguns minutos sua empresa vai ter memória própria, identidade visual
 aplicada em tudo que o sistema gerar, e 15 skills prontas pra fazer

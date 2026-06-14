@@ -18,7 +18,7 @@ Compara o que está nos arquivos de contexto com o estado real do workspace e pr
 Listar:
 - Pastas na raiz (cada uma representa uma área de trabalho)
 - Subpastas em `clientes/` (se existir) — cada uma é um cliente
-- Skills em `.pi/agent/skills/` — quais existem hoje
+- Skills em `.pi/skills/` — quais existem hoje
 - Arquivos recentes (últimos 30 dias) em pastas como `propostas/`, `conteudo/`, `clientes/<x>/`
 
 ### Passo 2 — Comparação

@@ -33,7 +33,7 @@ usar o contexto naturalmente.
 ## Fluxo de trabalho
 
 Antes de executar qualquer tarefa, verificar se existe skill relevante
-em `.pi/agent/skills/`. Se encontrar, seguir as instruções da skill. Se
+em `.pi/skills/`. Se encontrar, seguir as instruções da skill. Se
 não encontrar, executar a tarefa normalmente.
 
 Ao concluir uma tarefa que não tinha skill mas parece repetível (o
@@ -106,7 +106,7 @@ Quando o usuário pedir skill nova:
 1. Verificar se existe template relevante em `templates/skills/`. Se
    existir, usar como base e adaptar pro contexto
 2. Perguntar se é específica desse projeto ou útil em qualquer:
-   - Específica → `.pi/agent/skills/nome-da-skill/SKILL.md` (local)
+   - Específica → `.pi/skills/nome-da-skill/SKILL.md` (local)
    - Universal → `~/.pi/agent/skills/nome-da-skill/SKILL.md` (global)
 3. Ler `_memoria/empresa.md` e `_memoria/preferencias.md` pra calibrar
    o conteúdo da skill ao contexto do negócio
