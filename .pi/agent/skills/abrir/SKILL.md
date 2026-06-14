@@ -3,7 +3,7 @@ name: abrir
 description: >
   Abre uma sessão de trabalho carregando a memória do negócio (empresa, preferências, estratégia, identidade)
   e devolve um resumo curto pro usuário. Use quando o usuário disser "abrir",
-  "começar o dia", "/abrir" ou no primeiro turno de uma sessão depois do /instalar.
+  "começar o dia" ou no primeiro turno de uma sessão de trabalho.
 ---
 
 # /abrir — Abertura de sessão

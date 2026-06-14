@@ -1,14 +1,14 @@
 ﻿---
 name: novo-projeto
 description: >
-  Cria uma pasta de projeto nova com `CLAUDE.md` dedicado, depois de uma entrevista curta sobre
+  Cria uma pasta de projeto nova com `AGENTS.md` dedicado, depois de uma entrevista curta sobre
   o projeto (cliente, objetivo, entregas previstas). Use quando o usuário disser "novo projeto",
-  "novo cliente", "/novo-projeto", "começar projeto pra X" ou pedir pra estruturar um trabalho novo.
+  "novo cliente", "começar projeto pra X" ou pedir pra estruturar um trabalho novo.
 ---
 
 # /novo-projeto — Pasta de projeto novo com contexto dedicado
 
-Quando o usuário começa um projeto novo (cliente, iniciativa, produto), cria uma pasta com `CLAUDE.md` próprio que herda contexto da raiz e adiciona o que é específico do projeto.
+Quando o usuário começa um projeto novo (cliente, iniciativa, produto), cria uma pasta com `AGENTS.md` próprio que herda contexto da raiz e adiciona o que é específico do projeto.
 
 ## Workflow
 
@@ -23,7 +23,7 @@ Quando o usuário começa um projeto novo (cliente, iniciativa, produto), cria u
 
 Baseado na resposta 2:
 
-- **Cliente novo:** criar em `clientes/<Nome>/` (ou na pasta equivalente do perfil — ler `CLAUDE.md` da raiz pra confirmar a convenção)
+- **Cliente novo:** criar em `clientes/<Nome>/` (ou na pasta equivalente do perfil — ler `AGENTS.md` da raiz pra confirmar a convenção)
 - **Projeto interno:** criar em `projetos/<nome>/` (criar `projetos/` se não existir)
 - **Iniciativa pessoal:** perguntar onde o usuário prefere
 
@@ -31,11 +31,11 @@ Baseado na resposta 2:
 
 Criar a pasta com:
 
-- `CLAUDE.md` do projeto (instruções herdadas + específicas)
+- `AGENTS.md` do projeto (instruções herdadas + específicas)
 - `briefing.md` (com o que foi coletado na entrevista)
 - Subpastas conforme as entregas mencionadas (ex: se mencionou "ads e conteúdo", criar `ads/` e `conteudo/`)
 
-### Passo 4 — Conteúdo do `CLAUDE.md` do projeto
+### Passo 4 — Conteúdo do `AGENTS.md` do projeto
 
 Template:
 
@@ -78,11 +78,11 @@ Responder pro usuário:
 
 ```
 Pasta criada: [caminho]
-✓ CLAUDE.md do projeto
+✓ AGENTS.md do projeto
 ✓ briefing.md
 ✓ Subpastas: [lista]
 
-Quando for trabalhar nesse projeto, abre o terminal já dentro da pasta — assim eu carrego o CLAUDE.md específico junto com o da raiz.
+Quando for trabalhar nesse projeto, abre o terminal já dentro da pasta — assim eu carrego o AGENTS.md específico junto com o da raiz.
 ```
 
 ## Regras

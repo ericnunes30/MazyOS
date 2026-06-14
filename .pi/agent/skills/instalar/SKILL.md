@@ -3,9 +3,9 @@ name: instalar
 description: >
   Instala o MazyOS no negócio do usuário. Entrevista sobre empresa, tom de voz,
   foco atual e identidade visual, e preenche `_memoria/empresa.md`, `_memoria/preferencias.md`,
-  `_memoria/estrategia.md`, `identidade/design-guide.md` e adapta o `CLAUDE.md` conforme o perfil.
+  `_memoria/estrategia.md`, `identidade/design-guide.md` e adapta o `AGENTS.md` conforme o perfil.
   Use quando o usuário acabou de clonar o repositório e quer instalar o sistema, ou quando
-  pedir explicitamente "rodar /instalar", "instalar o MazyOS", "primeiro setup".
+  pedir "instalar o MazyOS", "primeiro setup".
 ---
 
 # /instalar — Instalação inicial do MazyOS
@@ -46,7 +46,7 @@ Perguntar qual perfil mais combina com o negócio:
 3. **Agência / consultoria** — equipe pequena entregando pra vários clientes
 4. **Empresa** — empresa estabelecida com setores (marketing, comercial, financeiro, etc.)
 
-A resposta determina qual template de `CLAUDE.md` aplicar (ver `templates/perfis/`).
+A resposta determina qual template de `AGENTS.md` aplicar (ver `templates/perfis/`).
 
 ---
 
@@ -95,8 +95,8 @@ Preencher com base nas perguntas 7-8. Estrutura:
 Se o usuário forneceu cores/fontes/logo (perguntas 9-10), preencher os campos correspondentes. Se não, deixar como está e avisar:
 > "Deixei o `identidade/design-guide.md` em branco. Sempre que você definir uma identidade visual, edita lá — as skills de carrossel, proposta e slide leem esse arquivo antes de criar qualquer visual."
 
-### `CLAUDE.md`
-Pegar o template correspondente ao perfil escolhido na Fase 1 (`templates/perfis/claude-md-<perfil>.md`), adaptar com o nome do negócio e estrutura de pastas mencionada nas respostas, e sobrescrever o `CLAUDE.md` da raiz.
+### `AGENTS.md`
+Pegar o template correspondente ao perfil escolhido na Fase 1 (`templates/perfis/agents-md-<perfil>.md`), adaptar com o nome do negócio e estrutura de pastas mencionada nas respostas, e sobrescrever o `AGENTS.md` da raiz.
 
 ---
 
@@ -110,7 +110,7 @@ Mostrar pro usuário o que foi configurado:
 ✓ Tom de voz: _memoria/preferencias.md
 ✓ Foco atual: _memoria/estrategia.md
 ✓ Marca: identidade/design-guide.md  [preenchida | em branco — preencher depois]
-✓ CLAUDE.md adaptado pro perfil [perfil]
+✓ AGENTS.md adaptado pro perfil [perfil]
 ```
 
 ---

@@ -4,8 +4,8 @@ description: >
   Aprova e publica um post da fila — flipa o blog de draft pra published, copia os PNGs do
   carrossel pro public folder do site, faz commit e push (Netlify/Vercel deploya), aguarda
   o deploy, e posta o carrossel no Instagram + Facebook via Meta Graph API. Use quando o
-  usuário disser "aprovar post X", "publicar o post do tema Y", "/aprovar-post X", ou quando
-  quiser disparar a publicação automática de um conteúdo já criado pela skill /publicar-tema.
+  usuário disser "aprovar post X", "publicar o post do tema Y", ou quando
+  quiser disparar a publicação automática de um conteúdo já criado.
 ---
 
 # /aprovar-post — Pipeline de aprovação e publicação automática

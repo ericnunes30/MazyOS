@@ -2,7 +2,7 @@
 name: salvar
 description: >
   Salva o trabalho do MazyOS no GitHub (commit + push). Na primeira vez configura o repositório
-  remoto. Use quando o usuário disser "salvar", "salva no github", "commit", "push", "/salvar"
+  remoto. Use quando o usuário disser "salvar", "salva no github", "commit", "push", 
   ou pedir backup do trabalho.
 ---
 

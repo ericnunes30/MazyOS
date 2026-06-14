@@ -2,9 +2,9 @@
 name: atualizar
 description: >
   Varre o projeto e atualiza os arquivos de contexto (`_memoria/empresa.md`, `preferencias.md`,
-  `estrategia.md`, `CLAUDE.md`, `identidade/design-guide.md`) que ficaram desatualizados em relação
-  ao estado real do workspace. Use quando o usuário disser "atualiza", "/atualizar", "varre o
-  projeto", ou pedir uma reconciliação geral.
+  `estrategia.md`, `AGENTS.md`, `identidade/design-guide.md`) que ficaram desatualizados em relação
+  ao estado real do workspace. Use quando o usuário disser "atualiza", "varre o
+  projeto" ou pedir uma reconciliação geral.
 ---
 
 # /atualizar — Varredura e atualização de contexto
@@ -18,7 +18,7 @@ Compara o que está nos arquivos de contexto com o estado real do workspace e pr
 Listar:
 - Pastas na raiz (cada uma representa uma área de trabalho)
 - Subpastas em `clientes/` (se existir) — cada uma é um cliente
-- Skills em `.claude/skills/` — quais existem hoje
+- Skills em `.pi/agent/skills/` — quais existem hoje
 - Arquivos recentes (últimos 30 dias) em pastas como `propostas/`, `conteudo/`, `clientes/<x>/`
 
 ### Passo 2 — Comparação
@@ -27,7 +27,7 @@ Ler os arquivos de contexto e identificar:
 
 - **Em `_memoria/empresa.md`:** lista de clientes / serviços / ferramentas — bate com a realidade do workspace?
 - **Em `_memoria/estrategia.md`:** o foco atual ainda faz sentido (datas, prioridades)?
-- **Em `CLAUDE.md`:** as regras de organização e a estrutura de pastas listada batem com o que existe?
+- **Em `AGENTS.md`:** as regras de organização e a estrutura de pastas listada batem com o que existe?
 - **Em `identidade/design-guide.md`:** continua coerente com o que foi gerado nas últimas peças (carrosséis, slides)?
 
 ### Passo 3 — Proposta de mudanças
@@ -38,7 +38,7 @@ Apresentar pro usuário uma lista curta no formato:
 Encontrei [N] coisas pra atualizar:
 
 1. _memoria/empresa.md — falta o cliente "Acme" (vi pasta clientes/Acme/ criada em [data])
-2. CLAUDE.md — tem regra "propostas vão em propostas/" mas vejo propostas em clientes/<x>/propostas/
+2. AGENTS.md — tem regra "propostas vão em propostas/" mas vejo propostas em clientes/<x>/propostas/
 3. _memoria/estrategia.md — fala em "fechar 1º cliente em fevereiro", já é abril e tem 3 clientes ativos
 
 Quer que eu aplique essas mudanças? Posso aplicar todas, escolher algumas, ou nenhuma.

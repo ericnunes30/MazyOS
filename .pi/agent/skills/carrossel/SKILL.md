@@ -5,7 +5,7 @@ description: >
   Gera HTML estilizado + renderiza em PNG 1080x1350 via Playwright, com legenda pronta no final.
   Suporta carrossel texto puro, carrossel com foto IA (gerada via OpenAI) e post único.
   Use quando o usuário pedir "carrossel", "post", "conteúdo pro instagram", "criar imagem",
-  "gerar foto", "post educativo", ou /carrossel.
+  "gerar foto", "post educativo".
 ---
 
 # /carrossel — Carrossel e posts visuais

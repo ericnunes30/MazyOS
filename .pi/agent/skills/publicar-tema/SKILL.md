@@ -3,10 +3,10 @@ name: publicar-tema
 description: >
   Orquestra a criação completa de uma peça de conteúdo SEO + redes sociais a partir de um tema.
   Pega um tema (manual ou da estratégia de conteúdo do SEO), escreve o artigo de blog completo,
-  gera o carrossel resumo via skill /carrossel, e produz as legendas pra Instagram, Facebook e
+  gera o carrossel resumo, e produz as legendas pra Instagram, Facebook e
   LinkedIn — tudo amarrado, com o carrossel apontando pro blog.
   Use quando o usuário pedir "publicar tema", "gera o conteúdo do tema X", "transforma esse tema
-  em post", "cria o conteúdo completo", ou /publicar-tema.
+  em post", "cria o conteúdo completo".
 ---
 
 # /publicar-tema — Pipeline de conteúdo SEO + redes sociais
@@ -17,7 +17,7 @@ Skill orquestradora. Pega um tema → entrega artigo no blog + carrossel + 3 leg
 
 - **Estratégia de conteúdo:** `marketing/seo/05-estrategia-conteudo.md` (lista mestra de temas, criada pelo `/seo`)
 - **Outras pesquisas SEO:** `marketing/seo/01-pesquisa-demanda.md`, `02-analise-concorrencia.md`, `08-geo-otimizacao-ia.md`
-- **Skill carrossel:** `.claude/skills/carrossel/SKILL.md` — usar pra fase do carrossel
+- **Skill carrossel:** `.pi/agent/skills/carrossel/SKILL.md` — usar pra fase do carrossel
 - **Site (blog):** `site/` — destino dos artigos. Estrutura comum: Astro em `site/astro-site/src/content/blog/`, ou WordPress, ou outro. Se ainda não tiver site, perguntar antes
 - **Tom de voz:** `_memoria/preferencias.md`
 - **Contexto:** `_memoria/empresa.md`, `identidade/design-guide.md`
@@ -87,7 +87,7 @@ draft: true
 
 ### Passo 3 — Carrossel resumo
 
-**Sem perguntar, partir direto pra criação do carrossel** chamando `.claude/skills/carrossel/SKILL.md` (tipo 1: carrossel texto puro).
+**Sem perguntar, partir direto pra criação do carrossel** chamando `.pi/agent/skills/carrossel/SKILL.md` (tipo 1: carrossel texto puro).
 
 **Pasta:** `marketing/conteudo/<slug-do-blog>-<YYYY-MM-DD>/`
 

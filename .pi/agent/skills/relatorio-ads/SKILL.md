@@ -6,7 +6,7 @@ description: >
   alertas (queima de orçamento, CTR baixo, conversões caindo) e recomendações práticas pra
   semana seguinte.
   Use quando o usuário pedir "relatório de ads", "relatório de campanha", "como foram os ads",
-  "performance da semana", "relatorio meta", "relatorio google ads", ou /relatorio-ads.
+  "performance da semana", "relatorio meta", "relatorio google ads".
 ---
 
 # /relatorio-ads — Relatório semanal de Google Ads + Meta Ads

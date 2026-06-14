@@ -6,7 +6,7 @@ description: >
   de palavras-chave, grupos de anúncios, RSAs (Responsive Search Ads), extensões e palavras-chave
   negativas. Lê o briefing de _memoria/empresa.md e da pesquisa SEO se existir.
   Use quando o usuário pedir "criar campanha google ads", "anúncio google", "google ads",
-  "csv pro google ads", ou /anuncio-google.
+  "csv pro google ads".
 ---
 
 # /anuncio-google — Estrutura de campanha Google Ads

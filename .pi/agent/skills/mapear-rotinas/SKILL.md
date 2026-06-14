@@ -3,8 +3,8 @@ name: mapear-rotinas
 description: >
   Mapeia tarefas repetitivas que o usuário faz no dia a dia e gera skills personalizadas pra
   automatizá-las. Faz uma entrevista curta sobre o que o usuário repete toda semana, propõe
-  skills concretas e cria as aprovadas em `.claude/skills/`. Use quando o usuário pedir
-  "/mapear-rotinas", "criar skills personalizadas", "automatizar minhas tarefas" ou "o que dá pra automatizar".
+  skills concretas e cria as aprovadas em `.pi/agent/skills/`. Use quando o usuário pedir
+  "criar skills personalizadas", "automatizar minhas tarefas" ou "o que dá pra automatizar".
 ---
 
 # /mapear-rotinas — Mapeamento de tarefas repetitivas em skills
@@ -46,7 +46,7 @@ Mostrar todas as propostas juntas e perguntar:
 
 Pra cada skill aprovada:
 
-1. Criar pasta `.claude/skills/<nome>/`
+1. Criar pasta `.pi/agent/skills/<nome>/`
 2. Criar `SKILL.md` com:
    - Frontmatter: `name`, `description` (descreve quando deve ser invocada)
    - Workflow estruturado em fases ou passos
@@ -59,8 +59,8 @@ Pra cada skill aprovada:
 
 ```
 Criei [N] skills:
-✓ /<nome1> — em .claude/skills/<nome1>/SKILL.md
-✓ /<nome2> — em .claude/skills/<nome2>/SKILL.md
+✓ /<nome1> — em .pi/agent/skills/<nome1>/SKILL.md
+✓ /<nome2> — em .pi/agent/skills/<nome2>/SKILL.md
 ...
 
 Pra usar: digita / e o nome da skill em qualquer sessão.
